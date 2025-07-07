@@ -16,6 +16,10 @@ directory as a starting point for migrating the project.
    ```
 3. Open `http://127.0.0.1:8000/place_stories/` in your browser.
 
+The py4web app exposes a `/get_constants` API that returns various
+numeric constants required by the frontend.  This endpoint mirrors the
+old Web2py controller functionality.
+
 The current py4web app only implements a couple of routes and redirects
 to the existing Aurelia front‑end. Additional controllers and models
 from the original Web2py project still need to be ported manually.
