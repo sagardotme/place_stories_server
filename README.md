@@ -14,7 +14,12 @@ directory as a starting point for migrating the project.
    ```bash
    py4web run apps --port 8000
    ```
-3. Open `http://127.0.0.1:8000/place_stories/` in your browser.
+3. Open `http://127.0.0.1:8000/place_stories/` (or `/place_stories/index`)
+   in your browser.  All routes live under the `place_stories` prefix.
+
+An empty SQLite database is already provided at
+`apps/place_stories/databases/storage.db` so the app starts without
+additional setup.
 
 The py4web app exposes a `/get_constants` API that returns various
 numeric constants required by the frontend.  This endpoint mirrors the

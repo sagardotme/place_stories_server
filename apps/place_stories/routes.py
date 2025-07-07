@@ -5,6 +5,7 @@ from .common import db, session, cache
 import uuid
 
 @action('')
+@action('/')
 @action('index')
 @action.uses(db, session)
 def index():
