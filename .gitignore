@@ -8,6 +8,7 @@ __pycache__/
 errors/
 logs/
 databases
+!apps/place_stories/databases/storage.db
 */static/fontawesome/*
 #static/aurelia/*
 private/deployment_folder
